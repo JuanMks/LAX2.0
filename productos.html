@@ -1,0 +1,121 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<title>LAX</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo3.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="about.html">SOBRE NOSOTROS</a></li>
+                    <li><a href="productos.html">PRODUCTOS</a></li>
+                    <li><a href="contact.html">CONTACTO</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Nuestros Productos</h1>
+    </section>
+    
+    
+<!---------- nosotros ----------->
+
+<section class="nosotros">
+    <a href="contact.html"> <h1>MEJORARMOS CUALQUIER PRESUPUESTO. <br> ENTREGAS A TODO EL ESTADO</h1></a>
+    <p>----------------------------</p>
+
+</section>
+    
+<!---------- productos ---------->
+    
+    <section class="facility">
+        <h1>Lo que ofrecemos</h1>
+        <p>Venta y fabricación de lamina acanalada y lisa.</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/prd/galvanizado.jpg">
+                    <h3>Galvanizada</h3>
+                </div>
+                <div class="facility-col">
+                    <img src="images/prd/pintro.png">
+                    <h3>Pintro</h3>
+                </div>
+                <div class="facility-col">
+                    <img src="images/prd/zintro.jpeg">
+                    <h3>Zintro</h3>
+                </div>
+            </div>
+    </section>
+     <section class="facility2">
+            <div class="row">
+                <div class="facility2-col">
+                    <img src="images/prd/acrilica.jpg">
+                    <h3>Acrílica</h3>
+                </div>
+                <div class="facility2-col">
+                    <img src="images/prd/galvateja2.jpg">
+                    <h3>Galvateja</h3>
+                </div>
+                <div class="facility2-col">
+                    <img src="images/prd/losacero.jpg">
+                    <h3>Losacero</h3>
+                    <p></p>
+                </div>
+            </div>
+    </section>
+    <section class="facility2">
+        <div class="row">
+            <div class="facility2-col">
+                <img src="images/prd/monten2.jpg">
+                <h3>Monten</h3>
+            </div>
+            <div class="facility2-col">
+                <img src="images/prd/canalones.jpg">
+                <h3>Canalones</h3>
+            </div>
+            <div class="facility2-col">
+                <img src="images/prd/caballetes.jpg">
+                <h3>Caballetes</h3>
+                <p></p>
+            </div>
+        </div>
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>Información de contacto</h4>
+        <div class="row-foot">
+                <p>Horarios : <br> <b> Lunes a Viernes 9:00 hrs - 18:00 hrs <br> Sabados 09:00 - 15:00 hrs.</b> <br></p>
+                <p>Correo electrónico: <br> <b>susanagosu@hotmail.com</b> <br></p>
+        </div>
+        <p>©2022 by Laminas y Acero Xiutepec.</p>
+</section>   
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
